@@ -1,0 +1,12 @@
+queue=[]
+queue.append('a')
+queue.append('b')
+queue.append('c')
+print("initial queue")
+print(queue)
+print("elements deequeue from queue")
+print(queue.pop(0))
+print(queue.pop(0))
+print(queue.pop(0))
+print("queue after removing eleminating")
+print(queue)
